@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/scrap.io/static/css/main.ebd9e7d3.css",
-    "main.js": "/scrap.io/static/js/main.1b62e80a.js",
+    "main.js": "/scrap.io/static/js/main.d55a4e1a.js",
     "static/js/453.bcffa189.chunk.js": "/scrap.io/static/js/453.bcffa189.chunk.js",
     "static/media/logo.svg": "/scrap.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/scrap.io/index.html",
     "main.ebd9e7d3.css.map": "/scrap.io/static/css/main.ebd9e7d3.css.map",
-    "main.1b62e80a.js.map": "/scrap.io/static/js/main.1b62e80a.js.map",
+    "main.d55a4e1a.js.map": "/scrap.io/static/js/main.d55a4e1a.js.map",
     "453.bcffa189.chunk.js.map": "/scrap.io/static/js/453.bcffa189.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd9e7d3.css",
-    "static/js/main.1b62e80a.js"
+    "static/js/main.d55a4e1a.js"
   ]
 }
