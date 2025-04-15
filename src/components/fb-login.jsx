@@ -6,13 +6,25 @@ const FBLogin = () => {
   const [responceData, setResponceData] = useState('');
 
   useEffect(() => {
-    // Initialize Facebook SDK
-    window.fbAsyncInit = function() {
+    // Load Facebook SDK
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  
+    window.fbAsyncInit = function () {
       window.FB.init({
-        appId: '681382954269968', // Replace with your Facebook App ID
+        appId: "681382954269968",
         cookie: true,
         xfbml: true,
-        version: 'v19.0',
+        version: "v19.0", // Must be a valid version
       });
     };
   }, []);
